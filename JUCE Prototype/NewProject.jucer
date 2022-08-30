@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="MGj1AC" name="NewProject" projectType="dll" useAppConfig="0"
+              addUsingNamespaceToJuceHeader="0" displaySplashScreen="1" jucerFormatVersion="1">
+  <MAINGROUP id="zGSI9S" name="NewProject">
+    <GROUP id="{A6D3AA9B-12C6-B89D-234D-4A1714D1D58C}" name="Source">
+      <FILE id="UB6EkA" name="am_sysdep.c" compile="1" resource="0" file="Source/am_sysdep.c"/>
+      <FILE id="ybyZDT" name="am_sysdep.h" compile="0" resource="0" file="Source/am_sysdep.h"/>
+      <FILE id="WTX9b6" name="Grain.cpp" compile="1" resource="0" file="Source/Grain.cpp"/>
+      <FILE id="Uyz7yM" name="Grain.h" compile="0" resource="0" file="Source/Grain.h"/>
+      <FILE id="enELle" name="GrainEnvelope.cpp" compile="1" resource="0"
+            file="Source/GrainEnvelope.cpp"/>
+      <FILE id="Le7Y66" name="GrainEnvelope.h" compile="0" resource="0" file="Source/GrainEnvelope.h"/>
+      <FILE id="JGEo7G" name="Granulator.cpp" compile="1" resource="0" file="Source/Granulator.cpp"/>
+      <FILE id="O9RsRM" name="Granulator.h" compile="0" resource="0" file="Source/Granulator.h"/>
+      <FILE id="M7AfN4" name="math_const.h" compile="0" resource="0" file="Source/math_const.h"/>
+      <FILE id="H82qWW" name="SimpsonIntegrator.cpp" compile="1" resource="0"
+            file="Source/SimpsonIntegrator.cpp"/>
+      <FILE id="fw5C6c" name="SimpsonIntegrator.h" compile="0" resource="0"
+            file="Source/SimpsonIntegrator.h"/>
+      <FILE id="zkYNJT" name="test.cpp" compile="1" resource="0" file="Source/test.cpp"/>
+      <FILE id="tn4pTo" name="test.h" compile="0" resource="0" file="Source/test.h"/>
+      <FILE id="UN7j2N" name="transforms.c" compile="1" resource="0" file="Source/transforms.c"/>
+      <FILE id="qf6T4g" name="transforms.h" compile="0" resource="0" file="Source/transforms.h"/>
+    </GROUP>
+  </MAINGROUP>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1"/>
+  <EXPORTFORMATS>
+    <VS2022 targetFolder="Builds/VisualStudio2022" toolset="v142">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="NewProject"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="NewProject"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="../../../juce-7.0.1-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../../juce-7.0.1-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_dsp" path="../../../juce-7.0.1-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../../juce-7.0.1-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../../juce-7.0.1-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_basics" path="../../../juce-7.0.1-windows/JUCE/modules"/>
+      </MODULEPATHS>
+    </VS2022>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_dsp" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+</JUCERPROJECT>
