@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "edge_detection", "edge_detection\edge_detection.pyproj", "{4D1B1B88-FDC9-4E25-A61F-1B5A2B0FADF5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4D1B1B88-FDC9-4E25-A61F-1B5A2B0FADF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D1B1B88-FDC9-4E25-A61F-1B5A2B0FADF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E814B082-902A-4727-B743-87B69217A11F}
+	EndGlobalSection
+EndGlobal
